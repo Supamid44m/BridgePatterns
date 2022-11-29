@@ -7,6 +7,6 @@ public abstract class Car{
         this.engine=engine;
 
     }
-
+    abstract public void setName(String name);
     abstract public void powered();
 }
